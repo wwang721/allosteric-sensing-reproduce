@@ -28,7 +28,7 @@ The code was run with **Python 3.11.11** and the following packages:
 
 ### Figure 2
 
-Figure 2 can be reproduced by running the script [F_comparing/F_comparing.py](/F_comparing/F_comparing.py).
+Figure 2 can be reproduced by running the script [compare_models/FI_comparing.py](/compare_models/FI_comparing.py).
 
 
 ### Figure 4
@@ -43,17 +43,17 @@ First, run [check_perturbation/simulation.py](/check_perturbation/simulation.py)
 
 ### Figure 6
 
-
+First, run [compare_models/simulation.py](/compare_models/simulation.py) to generate the simulation results ([compare_models/data.npy](/compare_models/data.npy)). Then run [compare_models/plot.py](/compare_models/plot.py) to produce the figures.
 
 
 ### Figure 7
 
-
+First, run [C0_alpha/simulation.py](/C0_alpha/simulation.py) to generate the simulation results ([C0_alpha/FI.npy](/C0_alpha/FI.npy)). Then run [C0_alpha/plot.py](/C0_alpha/plot.py) to produce the figures.
 
 
 ### Figure 8
 
-
+First, run [vary_KM/simulation.py](/vary_KM/simulation.py) to generate the simulation results ([vary_KM/FI.npy](/vary_KM/FI.npy)). Then run [vary_KM/plot.py](/vary_KM/plot.py) to produce the figure.
 
 
 ### Figure 9
