@@ -2,7 +2,7 @@
 
 [![arXiv:2503.03126](https://img.shields.io/badge/arXiv-2509.00219-grey.svg?colorB=a42c25&logo=arxiv)](https://doi.org/10.48550/arXiv.2509.00219)
 
-These are the code and data required to reproduce the results in the paper:
+This is the code required to reproduce the results in the paper:
 
 ***Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding***, Vishnu Srinivasan, Wei Wang (汪巍), and Brian A. Camley, **Phys. Rev. E (2026)**.
 
