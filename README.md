@@ -58,7 +58,7 @@ First, run [vary_KM/simulation.py](/vary_KM/simulation.py) to generate the simul
 
 ### Figure 9
 
-
+First, submit three jobs separately using [adaptation_time/run.slurm](/adaptation_time/run.slurm), which runs the three `adaptation_time*.py` scripts in [adaptation_time/](/adaptation_time) for the three concentration jumps. This generates three data files `raw_data*.npz` in the same directory. Then run [adaptation_time/plot.py](/adaptation_time/plot.py) to generate panels (a)--(d).
 
 
 ### Other figures
