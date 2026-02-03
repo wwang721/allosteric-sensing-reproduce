@@ -15,13 +15,10 @@ This code is only intended to help in reproducing our results and explaining our
 ## Requirements
 
 The code was run with **Python 3.11.11** and the following packages:
+
 * `numpy` == 2.1.3
 * `matplotlib` == 3.10.0
 * `scipy` == 1.5.3
-<!--
-* `tqdm` == 4.67.1
-* `mpi4py` == 4.0.3
--->
 
 
 ## Usage
@@ -58,7 +55,7 @@ First, run [vary_KM/simulation.py](/vary_KM/simulation.py) to generate the simul
 
 ### Figure 9
 
-First, submit three jobs separately using [adaptation_time/run.slurm](/adaptation_time/run.slurm), which runs the three `adaptation_time*.py` scripts in [adaptation_time/](/adaptation_time) for the three concentration jumps. This generates three data files `raw_data*.npz` in the same directory. Then run [adaptation_time/plot.py](/adaptation_time/plot.py) to generate panels (a)--(d).
+First, submit three separate jobs using [adaptation_time/run.slurm](/adaptation_time/run.slurm), which executes the three `adaptation_time*.py` scripts in the [adaptation_time](/adaptation_time) directory for different concentration jumps. This produces three corresponding data files `raw_data*.npz` in the same directory. Then run [adaptation_time/plot.py](/adaptation_time/plot.py) to generate panels (a)-(d).
 
 
 ### Other figures
