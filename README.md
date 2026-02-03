@@ -16,10 +16,12 @@ This code is only intended to help in reproducing our results and explaining our
 
 The code was run with **Python 3.11.11** and the following packages:
 * `numpy` == 2.1.3
-* `scipy` == 1.5.3
 * `matplotlib` == 3.10.0
+<!--
+* `scipy` == 1.5.3
 * `tqdm` == 4.67.1
 * `mpi4py` == 4.0.3
+-->
 
 
 ## Usage
