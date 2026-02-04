@@ -4,7 +4,7 @@
 
 These are the code and data required to reproduce the results in the paper:
 
-***Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding***, Vishnu Srinivasan, Wei Wang (汪巍), and Brian A. Camley, **Phys. Rev. E (2026)**.
+- ***Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding***, Vishnu Srinivasan, Wei Wang (汪巍), and Brian A. Camley, **Phys. Rev. E (2026)**.
 
 Preprint version available on **arXiv**: [arXiv:2509.00219](https://doi.org/10.48550/arXiv.2509.00219).
 
@@ -16,9 +16,11 @@ This code is only intended to help in reproducing our results and explaining our
 
 The code was run with **Python 3.11.11** and the following packages:
 
-* `numpy` == 2.1.3
-* `matplotlib` == 3.10.0
-* `scipy` == 1.5.3
+| Package    | Version | Usage                              |
+| :--------- | :-----: | :--------------------------------- |
+| numpy      | 2.1.3   | Numerical computations             |
+| matplotlib | 3.10.0  | Plotting and visualization         |
+| scipy      | 1.5.3   | Miscellaneous scientific functions |
 
 
 ## Usage

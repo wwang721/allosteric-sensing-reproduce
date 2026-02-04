@@ -1,5 +1,5 @@
-#!/bin/bash
-#SBATCH --job-name=adapt_time
+#!/bin/bash -l
+#SBATCH --job-name=adapt1
 #SBATCH --time=1-0:0:0
 #SBATCH --account=bcamley1
 #SBATCH --mail-type=end
