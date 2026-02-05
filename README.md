@@ -8,8 +8,8 @@ These are the code and data required to reproduce the results in the paper:
 
 Preprint version available on **arXiv**: [arXiv:2509.00219](https://doi.org/10.48550/arXiv.2509.00219).
 
-
-This code is only intended to help in reproducing our results and explaining our methods fully - attempting to generalize without full understanding may lead to unpredictable issues or errors.
+> [!CAUTION]
+> This code is only intended to help in reproducing our results and explaining our methods fully - attempting to generalize without full understanding may lead to unpredictable issues or errors.
 
 
 ## Requirements
@@ -57,7 +57,7 @@ First, run [vary_KM/simulation.py](/vary_KM/simulation.py) to generate the simul
 
 ### Figure 9
 
-First, submit three separate jobs using [adaptation_time/run.slurm](/adaptation_time/run.slurm), which executes the three `adaptation_time*.py` scripts in the [adaptation_time](/adaptation_time) directory for different concentration jumps. This produces three corresponding data files `raw_data*.npz` in the same directory. Then run [adaptation_time/plot.py](/adaptation_time/plot.py) to generate panels (a)-(d).
+First, submit three separate jobs to the HPC cluster to execute the three Python scripts `adaptation_time*.py` for different concentration jumps in the [adaptation_time](/adaptation_time) directory. An example SLURM job-submission script is provided in [adaptation_time/run.slurm](/adaptation_time/run.slurm). This produces three corresponding data files `raw_data*.npz` in the same directory. Then run [adaptation_time/plot.py](/adaptation_time/plot.py) to generate panels (a)-(d).
 
 
 ### Other figures
