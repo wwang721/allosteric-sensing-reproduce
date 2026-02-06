@@ -1,6 +1,7 @@
 # Supplementary code & data - Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding
 
 [![arXiv:2503.03126](https://img.shields.io/badge/arXiv-2509.00219-grey.svg?colorB=a42c25&logo=arxiv)](https://doi.org/10.48550/arXiv.2509.00219)
+[![CI](https://github.com/wwang721/allosteric-sensing-reproduce/actions/workflows/ci.yml/badge.svg)](https://github.com/wwang721/allosteric-sensing-reproduce/actions/workflows/ci.yml)
 
 These are the code and data required to reproduce the results in the paper:
 
@@ -20,7 +21,7 @@ The code was run with **Python 3.11.11** and the following packages:
 | :--------- | :-----: | :--------------------------------- |
 | numpy      | 2.1.3   | Numerical computations             |
 | matplotlib | 3.10.0  | Plotting and visualization         |
-| scipy      | 1.5.3   | Miscellaneous scientific functions |
+| scipy      | 1.15.3  | Miscellaneous scientific functions |
 
 
 ## Usage
