@@ -8,6 +8,7 @@ on:
       - '**/*.slurm'
       - '**/*.npy'
       - '**/*.npz'
+      - '**/CITATION.*'
 
   pull_request:
     branches: [ "main" ]
@@ -17,6 +18,7 @@ on:
       - '**/*.slurm'
       - '**/*.npy'
       - '**/*.npz'
+      - '**/CITATION.*'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
