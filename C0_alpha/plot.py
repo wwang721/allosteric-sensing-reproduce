@@ -5,7 +5,7 @@ from matplotlib.ticker import AutoMinorLocator
 
 data = np.load('FI.npy')
 num_rows = data.shape[0]
-FI_10, FI_100 = data[:int(num_rows/2)], data[int(num_rows/2):]
+FI_100, FI_10 = data[:int(num_rows/2)], data[int(num_rows/2):]
 
 
 KD = 100
