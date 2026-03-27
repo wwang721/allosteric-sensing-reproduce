@@ -208,6 +208,6 @@ __marimo__/
 
 # Custom additions
 .DS_Store
-*.png
+#*.png
 *.pdf
 *.svg

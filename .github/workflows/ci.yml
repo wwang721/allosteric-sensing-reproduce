@@ -59,7 +59,7 @@ jobs:
           uv run FI_comparing.py
           uv run plot.py
 
-          cd ../adapt_KM\&G_dynamics
+          cd ../adapt_dynamics
           uv run response.py
           uv run time_series.py
 
