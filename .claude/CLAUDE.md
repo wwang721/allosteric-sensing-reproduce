@@ -38,7 +38,7 @@ For headless (non-GUI) environments, set `MPLBACKEND=Agg`.
 
 ## CI
 
-GitHub Actions (`.github/workflows/ci.yml`) runs all scripts on push/PR to verify they execute without errors. No linting or unit tests exist — CI success means all scripts run to completion.
+GitHub Actions (`.github/workflows/auto-plot.yml`) runs all scripts on push/PR, then auto-commits any regenerated `.png` figures back to `main` via a GitHub App token. No linting or unit tests exist — CI success means all scripts run to completion.
 
 ## Architecture
 
