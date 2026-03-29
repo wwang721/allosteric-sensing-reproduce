@@ -22,7 +22,7 @@ kc = 1  # time in units of 1/kc
 KD = 100
 KG = 1
 alpha = 10
-KM = 0.0001  # Michaelis-Menten constant
+KM = 0.00001  # Michaelis-Menten constant
 
 # Initializing array
 l = 40  # number of modeled G-protein sites
