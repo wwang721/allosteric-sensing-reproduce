@@ -94,10 +94,9 @@ jobs:
       #     test -f outputs/figure2.pdf
 
       - name: Push to GitHub
-        if: github.event_name == 'push'
         uses: EndBug/add-and-commit@v7.2.1
         with:
-          branch: main
+          branch: ${{ github.ref_name }}
           message: ":bento: Generate figures [bot]"
           add: "**/*.png"
           default_author: github_actions
