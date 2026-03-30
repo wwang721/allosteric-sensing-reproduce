@@ -2,7 +2,7 @@ import numpy as np
 import scipy.optimize as opt
 
 
-max_steps = 400000
+max_steps = 600000
 time = [0]
 
 # reaction terms
@@ -32,7 +32,7 @@ theta = theta[0:l]
 
 # Diffusion terms
 r = 1  # position in units of r
-dt = 0.00005
+dt = 0.00001
 dx = 2*np.pi*r/l
 D = 100  # units of x^2/t
 # D*dt/dx**2  # checking stability - this has to be < 0.5
