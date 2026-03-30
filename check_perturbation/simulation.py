@@ -2,7 +2,7 @@ import numpy as np
 import scipy.optimize as opt
 
 
-max_steps = 400000
+max_steps = 600000
 time = [0]
 
 # reaction terms
