@@ -8,21 +8,23 @@ Reproducible code for the paper *"Perfect adaptation in eukaryotic gradient sens
 
 ## Running Scripts
 
-There is no build system. Each script is run directly:
+There is no build system. Each script must be run from within its own directory:
 
 ```bash
-python compare_models/FI_comparing.py
-python adapt_dynamics/response.py
-python adapt_dynamics/time_series.py
-python check_perturbation/plot.py
-python C0_alpha/plot.py
-python vary_KM/plot.py
-python adaptation_time/plot.py
+cd compare_models && python FI_comparing.py
+cd adapt_dynamics && python response.py
+cd adapt_dynamics && python time_series.py
+cd check_perturbation && python plot.py
+cd C0_alpha && python plot.py
+cd vary_KM && python plot.py
+cd adaptation_time && python plot.py
 ```
+
+> **Important:** Always `cd` into the directory first. Running scripts from the repo root (e.g. `python check_perturbation/plot.py`) will fail due to relative path dependencies.
 
 For HPC long-running simulations (adaptation_time):
 ```bash
-sbatch adaptation_time/run.slurm
+cd adaptation_time && sbatch run.slurm
 ```
 
 ## Dependencies
