@@ -3,6 +3,7 @@
 [![PRE Paper](https://img.shields.io/badge/DOI-10.1103%2Fz9xd--xbw5-blue)](https://doi.org/10.1103/z9xd-xbw5)
 [![arXiv:2509.00219](https://img.shields.io/badge/arXiv-2509.00219-grey.svg?colorB=a42c25&logo=arxiv)](https://doi.org/10.48550/arXiv.2509.00219)
 [![auto-plot](https://github.com/wwang721/allosteric-sensing-reproduce/actions/workflows/auto-plot.yml/badge.svg)](https://github.com/wwang721/allosteric-sensing-reproduce/actions/workflows/auto-plot.yml)
+[![license](https://img.shields.io/github/license/wwang721/allosteric-sensing-reproduce)](https://github.com/wwang721/allosteric-sensing-reproduce/blob/main/LICENSE)
 
 These are the code and data required to reproduce the results in the paper:
 
