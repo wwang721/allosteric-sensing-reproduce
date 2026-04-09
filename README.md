@@ -68,6 +68,15 @@ First, submit three separate jobs to the HPC cluster to execute the three Python
 Remaining figures are minor variants or extension of the figures described above and can be generated following analogous procedures.
 
 
+## More information
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19484602.svg)](https://doi.org/10.5281/zenodo.19484602)
+
+- This repository is also archived and cross-listed on [Zenodo](https://doi.org/10.5281/zenodo.19484602).
+- The authors acknowledge support from the National Institutes of Health (NIH) Grant No. R35GM142847 and the National Science Foundation (NSF) Grant No. DMR1945141.
+- Part of this work was carried out at the Advanced Research Computing at Hopkins (ARCH) core facility, which is supported by the National Science Foundation (NSF) Grant No. OAC1920103.
+
+
 ## License
 
 This project is licensed under the [Apache License 2.0](/LICENSE), which essentially means you have the freedom to use, modify, and distribute this code for almost any purpose, with an explicit patent grant from contributors, as long as you include the license, provide attribution, and document any changes.
