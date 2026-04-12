@@ -3,16 +3,17 @@ message: "If you use this software, please cite the following paper."
 authors:
 - family-names: "Srinivasan"
   given-names: "Vishnu"
+  orcid: "https://orcid.org/0009-0002-0225-7590"
 - family-names: "Wang"
   given-names: "Wei"
   orcid: "https://orcid.org/0000-0002-0053-1069"
 - family-names: "Camley"
   given-names: "Brian A."
   orcid: "https://orcid.org/0000-0002-0765-6956"
-title: "allosteric-sensing-reproduce"
+title: "Supplementary code and data: Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding"
 version: 1.0.0
-doi: 10.5281/zenodo.XXXXXXX
-date-released: 2026-3-20
+doi: 10.5281/zenodo.19484602
+date-released: 2026-03-20
 url: "https://github.com/wwang721/allosteric-sensing-reproduce"
 preferred-citation:
   type: article
@@ -20,6 +21,7 @@ preferred-citation:
   authors:
     - family-names: "Srinivasan"
       given-names: "Vishnu"
+      orcid: "https://orcid.org/0009-0002-0225-7590"
     - family-names: "Wang"
       given-names: "Wei"
       orcid: "https://orcid.org/0000-0002-0053-1069"
