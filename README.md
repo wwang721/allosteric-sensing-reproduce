@@ -7,7 +7,7 @@
 
 These are the code and data required to reproduce the results in the paper:
 
-- ***Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding***, Vishnu Srinivasan, Wei Wang (汪巍), and Brian A. Camley, [**Phys. Rev. E (2026)**](https://doi.org/10.1103/z9xd-xbw5).
+- ***Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding***, Vishnu Srinivasan, Wei Wang (汪巍), and Brian A. Camley, [Phys. Rev. E **113**, 044414 (2026)](https://doi.org/10.1103/z9xd-xbw5) **[Editor's Suggestion]**.
 
 Preprint version available on **arXiv**: [arXiv:2509.00219](https://doi.org/10.48550/arXiv.2509.00219).
 
