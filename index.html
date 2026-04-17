@@ -165,9 +165,27 @@
       border: 1px solid rgba(61,191,176,0.25);
       padding: 0.35rem 1rem;
       border-radius: 2rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       opacity: 0;
       animation: fadeUp 0.7s 0.2s forwards;
+    }
+
+    .editors-suggestion {
+      display: block;
+      text-align: left;
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #ffffff;
+      background: #4a4a4a;
+      padding: 0.3rem 0.7rem;
+      border-radius: 2px;
+      margin-bottom: 1.5rem;
+      width: fit-content;
+      opacity: 0;
+      animation: fadeUp 0.7s 0.32s forwards;
     }
 
     #hero h1 {
@@ -792,7 +810,10 @@
   </svg>
 
   <div class="hero-content">
-    <div class="hero-label">Biophysics · Mathematical Modeling · Chemotaxis</div>
+    <div style="display:flex;align-items:center;justify-content:center;gap:0.75rem;margin-bottom:2rem;">
+      <div class="editors-suggestion" style="margin-bottom:0;">Editors' Suggestion</div>
+      <div class="hero-label" style="margin-bottom:0;">Biophysics · Mathematical Modeling · Chemotaxis</div>
+    </div>
 
     <h1>Perfect Adaptation in<br>Eukaryotic <em>Gradient Sensing</em></h1>
     <p class="hero-subtitle">using Cooperative Allosteric Binding</p>
@@ -808,13 +829,13 @@
 
     <div class="badges">
       <a class="badge badge-journal" href="https://doi.org/10.1103/z9xd-xbw5" target="_blank" rel="noopener">
-        <span class="badge-icon">📄</span> Phys. Rev. E (2026)
+        <span class="badge-icon">📄</span> Phys. Rev. E 113, 044414 (2026)
       </a>
       <a class="badge badge-arxiv" href="https://arxiv.org/abs/2509.00219" target="_blank" rel="noopener">
         <span class="badge-icon">📐</span> arXiv:2509.00219
       </a>
       <a class="badge badge-github" href="https://github.com/wwang721/allosteric-sensing-reproduce" target="_blank" rel="noopener">
-        <span class="badge-icon">⌥</span> Code
+        <span class="badge-icon">⌥</span> Reproduction code
       </a>
     </div>
   </div>
@@ -1116,14 +1137,17 @@
         <button class="copy-btn" id="copyBtn">Copy</button>
       </div>
       <pre class="bibtex" id="bibtexContent"><span class="bib-key">@article</span>{srinivasan2026perfect,
-  <span class="bib-field">title</span>   = {<span class="bib-val">Perfect adaptation in eukaryotic gradient sensing
-            using cooperative allosteric binding</span>},
-  <span class="bib-field">author</span>  = {<span class="bib-val">Srinivasan, Vishnu and Wang, Wei and Camley, Brian A.</span>},
-  <span class="bib-field">journal</span> = {<span class="bib-val">Physical Review E</span>},
-  <span class="bib-field">year</span>    = {<span class="bib-val">2026</span>},
-  <span class="bib-field">doi</span>     = {<span class="bib-val">10.1103/z9xd-xbw5</span>},
-  <span class="bib-field">eprint</span>  = {<span class="bib-val">2509.00219</span>},
-  <span class="bib-field">archivePrefix</span> = {<span class="bib-val">arXiv</span>},
+  <span class="bib-field">title</span>     = {<span class="bib-val">Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding</span>},
+  <span class="bib-field">author</span>    = {<span class="bib-val">Srinivasan, Vishnu and Wang, Wei and Camley, Brian A.</span>},
+  <span class="bib-field">journal</span>   = {<span class="bib-val">Phys. Rev. E</span>},
+  <span class="bib-field">volume</span>    = {<span class="bib-val">113</span>},
+  <span class="bib-field">issue</span>     = {<span class="bib-val">4</span>},
+  <span class="bib-field">pages</span>     = {<span class="bib-val">044414</span>},
+  <span class="bib-field">numpages</span>  = {<span class="bib-val">14</span>},
+  <span class="bib-field">year</span>      = {<span class="bib-val">2026</span>},
+  <span class="bib-field">month</span>     = {<span class="bib-val">Apr</span>},
+  <span class="bib-field">publisher</span> = {<span class="bib-val">American Physical Society</span>},
+  <span class="bib-field">doi</span>       = {<span class="bib-val">10.1103/z9xd-xbw5</span>}
 }</pre>
     </div>
     <p class="reveal" style="margin-top:1.5rem;color:var(--muted);font-size:0.88rem;">
@@ -1160,13 +1184,17 @@
   // ── Copy BibTeX ────────────────────────────────────────────────────
   document.getElementById('copyBtn').addEventListener('click', function() {
     const raw = `@article{srinivasan2026perfect,
-  title   = {Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding},
-  author  = {Srinivasan, Vishnu and Wang, Wei and Camley, Brian A.},
-  journal = {Physical Review E},
-  year    = {2026},
-  doi     = {10.1103/z9xd-xbw5},
-  eprint  = {2509.00219},
-  archivePrefix = {arXiv},
+  title     = {Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding},
+  author    = {Srinivasan, Vishnu and Wang, Wei and Camley, Brian A.},
+  journal   = {Phys. Rev. E},
+  volume    = {113},
+  issue     = {4},
+  pages     = {044414},
+  numpages  = {14},
+  year      = {2026},
+  month     = {Apr},
+  publisher = {American Physical Society},
+  doi       = {10.1103/z9xd-xbw5}
 }`;
     navigator.clipboard.writeText(raw).then(() => {
       this.textContent = 'Copied!';
